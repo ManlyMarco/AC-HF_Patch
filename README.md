@@ -1,4 +1,4 @@
-<img width="1394" height="671" alt="aicomi hfp preview" src="https://github.com/user-attachments/assets/ae83c6ee-6342-4a4f-af27-cd252e93d65c" />
+<img width="1394" height="671" alt="aicomi hfp preview" src="https://github.com/user-attachments/assets/166f9af4-1b48-4552-a46e-797f271c52b1" />
 
 # HF Patch for Aicomi!
 An unofficial patch for [Aicomi](https://www.illgames.jp/product/aicomi/) (アイコミ) with all free updates, fan-made English translations and essential mods. It will allow you to load all character cards and scenes and give you countless gameplay improvements while still keeping the original, uncluttered and clean feel of the game. All content is tested and fixed (or removed) as needed before each update. HF Patch can repair many common problems, try it if you have issues with your game or mod setup.
