@@ -1,7 +1,17 @@
-# AC_BepisPlugins v21.1.1
+# AC_BepisPlugins v21.1.1.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
+
+# ACUncensorHardmod_V3
+- Short description: Basic male and female uncensor
+- Author(s):         DilleDing
+- More information:  Koikatsu discord server
+
+# ACUncensorHardmod-NoFutaBalls_V3
+- Short description: Basic male and female uncensor (futanaris have no balls)
+- Author(s):         DilleDing
+- More information:  Koikatsu discord server
 
 # BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.738
 - Short description: Plugin framework
@@ -28,7 +38,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Fishbone+CoastalSmell v3.1.2
+# Fishbone+CoastalSmell v3.1.3
 - Short description: API for character and coordinate extension data and syntax suggers
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -43,6 +53,11 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
+# Hardmod pack 2025/10/06
+- Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
+- Author(s):         Multiple
+- More information:  Koikatsu discord server
+
 # IllusionFixes_IL2CPP v22.0.4
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
@@ -52,6 +67,11 @@
 - Short description: Adds useful options to the game's Jump List in taskbar right-click menu
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
+
+# KKManager v1.5.1.0
+- Short description: Manage plugins and browse character cards
+- Author(s):         https://github.com/IllusionMods
+- More information:  https://github.com/IllusionMods/KKManager
 
 # LoveMachine v4.0.101
 - Short description: Adds support for some computer-controlled sex toys
@@ -68,6 +88,11 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
+# PelvicFin v1.1.5
+- Short description: Modify misc character status in character creation and H scene
+- Author(s):         AC_PelvicFin
+- More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
+
 # PovX v0.0.6
 - Short description: First-person mode for H scenes. Press N to toggle POV, and M to switch character
 - Author(s):         y0soro
@@ -78,7 +103,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineHead v2.0.1
+# SardineHead v2.1.1
 - Short description: Runtime texture and material modifier tool
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
@@ -87,11 +112,6 @@
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
-
-# Scuffed Uncensor Hardmod
-- Short description: Basic male and female uncensor with some issues
-- Author(s):         DilleDing
-- More information:  Koikatsu discord server
 
 # Unlock FreeH
 - Short description: Save file with FreeH fully unlocked. Overwrites your global unlock progress, but not game saves
