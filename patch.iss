@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Aicomi"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.1"
+#define VERSION "1.2"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -69,8 +69,8 @@ Source: "HelperLib.dll";                  DestDir: "{app}";                     
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
-Source: "Input\_Patch\2_1003\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
-Source: "Input\_Patch\9_unhollowed-1003\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\2_1009\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\9_unhollowed-1009\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -111,6 +111,19 @@ Type: files; Name: "{app}\*.ico"
 Type: files; Name: "{app}\[BR]*"
 Type: files; Name: "{app}\abdata_original"
 Type: files; Name: "{app}\BepInEx\config\SpockBauru*"
+
+; Remove hardmods previously included in hfp
+Type: filesandordirs; Name: "{app}\lib\chara\MOD"
+Type: filesandordirs; Name: "{app}\lib\chara\onin"
+Type: filesandordirs; Name: "{app}\lib\chara\thumb\onin"
+Type: files; Name: "{app}\lib\ac_lib097_00"
+Type: files; Name: "{app}\lib\chara\list\characustom\000_50_tofusalomoto.unity3d"
+Type: files; Name: "{app}\lib\chara\list\characustom\080_6524_SVS_TekitoMOD_face+.unity3d"
+Type: files; Name: "{app}\lib\chara\list\characustom\080_6530_SVS_TekitoMOD_SVS_mt.unity3d"
+Type: files; Name: "{app}\lib\chara\list\characustom\097_00.unity3d"
+Type: files; Name: "{app}\lib\chara\list\characustom\1001_812_AC_S10MOD.unity3d"
+Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_body_tans.unity3d"
+Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_face_overlay.unity3d"
 
 ; Always not necessary
 Type: files; Name: "{app}\0Harmony.dll"

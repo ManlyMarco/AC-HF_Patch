@@ -1,7 +1,22 @@
+# A pack of sardines
+- Short description: Modpack with various new items for use in maker
+- Author(s):         Various, Tekito
+- More information:  Koikatsu Discord server
+
 # AC_BepisPlugins v21.1.1.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
+
+# AC_CharaFilter v0.0.6
+- Short description: Additional filtering options for character/coordinate cards
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Plugins
+
+# AC_Hair v0.0.1
+- Short description: If 'eye over hair' is enabled, make hair transparent instead
+- Author(s):         ekibun
+- More information:  Koikatsu Discord server
 
 # ACUncensorHardmod_V3
 - Short description: Basic male and female uncensor
@@ -17,6 +32,21 @@
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
+
+# CCPoseLoader v2.1.1
+- Short description: Additional pose loader for maker, adds more poses
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-CCPoseLoader
+
+# Cheat Tools v3.6
+- Short description: In-game trainer/debugging plugin
+- Author(s):         ManlyMarco
+- More information:  https://github.com/ManlyMarco/IllusionCheatTools
+
+# Clothing State Menu v5.2.0.2
+- Short description: Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere
+- Author(s):         IDontHaveIdea, ManlyMarco
+- More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
 # Configuration Manager v18.4.1
 - Short description: Can change plugin settings. Press F1 to open
@@ -38,7 +68,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Fishbone+CoastalSmell v3.1.3
+# Fishbone+CoastalSmell v3.1.5
 - Short description: API for character and coordinate extension data and syntax suggers
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -68,7 +98,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.5.1.0
+# KKManager v1.6.0.0
 - Short description: Manage plugins and browse character cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -93,12 +123,12 @@
 - Author(s):         AC_PelvicFin
 - More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
 
-# PovX v0.0.6
+# PovX v0.0.8
 - Short description: First-person mode for H scenes. Press N to toggle POV, and M to switch character
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# Runtime Unity Editor v6.1.1
+# Runtime Unity Editor v6.2
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
@@ -108,7 +138,7 @@
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SardineTail v2.1.4
+# SardineTail v2.1.7
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
