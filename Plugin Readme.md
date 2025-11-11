@@ -3,7 +3,7 @@
 - Author(s):         Various, Tekito
 - More information:  Koikatsu Discord server
 
-# AC_BepisPlugins v21.1.1.1
+# AC_BepisPlugins v21.1.2
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -53,8 +53,8 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# Custom intro voices v32.0
-- Short description: Parasocial for AI vtubers
+# Custom intro voices v33.0
+- Short description: Being a gooner is my job
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -88,7 +88,7 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
-# IllusionFixes_IL2CPP v22.0.4
+# IllusionFixes_IL2CPP v22.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
@@ -98,7 +98,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.6.0.0
+# KKManager v1.7.0.0
 - Short description: Manage plugins and browse character cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -128,7 +128,7 @@
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# Runtime Unity Editor v6.2
+# Runtime Unity Editor v6.3
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
@@ -138,7 +138,7 @@
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SardineTail v2.1.7
+# SardineTail v2.1.11
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
@@ -153,7 +153,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.4.6
+# XUnity Auto Translator v5.5
 - Short description: Translation loader and automatic translator
 - Author(s):         gravydevsupreme, Bepis, others at https://github.com/bbepis/XUnity.AutoTranslator
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
