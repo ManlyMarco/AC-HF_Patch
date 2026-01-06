@@ -3,7 +3,7 @@
 - Author(s):         Various, Tekito
 - More information:  Koikatsu Discord server
 
-# AC_BepisPlugins v21.1.2
+# AC_BepisPlugins v21.1.2.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -28,7 +28,7 @@
 - Author(s):         DilleDing
 - More information:  Koikatsu discord server
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.738
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -138,7 +138,7 @@
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SardineTail v2.1.11
+# SardineTail v2.1.12
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail

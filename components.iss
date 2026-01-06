@@ -1,12 +1,12 @@
 [Components]
-Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.738 (Plugin framework)"                        ; Types: full_en full extra_en extra custom bare; Flags: fixed
+Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752 (Plugin framework)"                        ; Types: full_en full extra_en extra custom bare; Flags: fixed
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v18.4.1 (Can change plugin settings. Press F1 to open)"         ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "KKManager";                             Description: "KKManager v1.7.0.0 (Manage plugins and browse character cards)"                       
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.2 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
+Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.2.1 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "AT";                                    Description: "XUnity Auto Translator v5.5 (Translation loader and automatic translator)"            ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
@@ -23,7 +23,7 @@ Name: "Content";                               Description: "Additional content 
 Name: "Content\Fishbone";                      Description: "Fishbone+CoastalSmell v3.1.5 (API for character and coordinate extension data and syntax suggers)"; Types: extra extra_en
 Name: "Content\Fishbone\PelvicFin";            Description: "PelvicFin v1.1.5 (Modify misc character status in character creation and H scene)"    ; Types: extra extra_en
 Name: "Content\Fishbone\SardineHead";          Description: "SardineHead v2.1.1 (Runtime texture and material modifier tool)"                      ; Types: extra extra_en
-Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.1.11 (Adds support for soft mods)"                                     ; Types: extra extra_en
+Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.1.12 (Adds support for soft mods)"                                     ; Types: extra extra_en
 Name: "Content\Fishbone\SardineTail\Sardines_modpack"; Description: "A pack of sardines (Modpack with various new items for use in maker)"                 ; Types: extra extra_en
 Name: "Content\Hardmods";                      Description: "Hardmod pack 2025/10/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"; Types: extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
