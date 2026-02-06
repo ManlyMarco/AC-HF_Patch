@@ -18,6 +18,16 @@
 - Author(s):         ekibun
 - More information:  Koikatsu Discord server
 
+# AC_HGaugeCtrl v1.0.0
+- Short description: Changes how the HGauge works
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/AC_HGaugeCtrl
+
+# AC_SliderUnlock v1.0.1
+- Short description: Unlocks ranges of most character maker sliders
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Plugins
+
 # ACUncensorHardmod_V3
 - Short description: Basic male and female uncensor
 - Author(s):         DilleDing
@@ -28,17 +38,27 @@
 - Author(s):         DilleDing
 - More information:  Koikatsu discord server
 
+# Ahegao v1.0.0
+- Short description: Allows setting different faces for different states
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/AC_Ahegao
+
+# BeautifySettings v1.1.0
+- Short description: Allows changing different Beautify post-processing settings
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_BeautifySettings
+
 # BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
 
-# CCPoseLoader v2.1.1
+# CCPoseLoader v2.2.0
 - Short description: Additional pose loader for maker, adds more poses
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-CCPoseLoader
 
-# Cheat Tools v3.6
+# Cheat Tools v3.6.1
 - Short description: In-game trainer/debugging plugin
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
@@ -53,10 +73,15 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# Custom intro voices v33.0
-- Short description: Being a gooner is my job
+# Custom intro voices v34.0
+- Short description: Gitgoon
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
+
+# DorsalFin v1.1.0
+- Short description: Additional color modifier UI for chara maker (default CTRL+D)
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-DorsalFin
 
 # Enable Full Screen Toggle v0.7
 - Short description: Press Alt+Enter to toggle full screen mode
@@ -68,7 +93,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Fishbone+CoastalSmell v3.1.5
+# Fishbone+CoastalSmell v4.0.0
 - Short description: API for character and coordinate extension data and syntax suggers
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -88,6 +113,16 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
+# HSceneAnimationSpeed v1.0.0
+- Short description: Allows setting a custom animation speed during H
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_HSceneAnimationSpeed
+
+# HSceneBreastJiggle v1.0.1
+- Short description: Allows setting custom values for breast softness and weight during H
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
+
 # IllusionFixes_IL2CPP v22.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
@@ -98,12 +133,12 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.7.0.0
+# KKManager v1.8.0.0
 - Short description: Manage plugins and browse character cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
 
-# LoveMachine v4.0.101
+# LoveMachine v4.3.0
 - Short description: Adds support for some computer-controlled sex toys
 - Author(s):         Sauceke
 - More information:  https://github.com/Sauceke/LoveMachine
@@ -118,7 +153,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# PelvicFin v1.1.5
+# PelvicFin v1.2.0
 - Short description: Modify misc character status in character creation and H scene
 - Author(s):         AC_PelvicFin
 - More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
@@ -133,12 +168,12 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineHead v2.1.1
+# SardineHead v2.2.0
 - Short description: Runtime texture and material modifier tool
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SardineTail v2.1.12
+# SardineTail v2.2.0
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail

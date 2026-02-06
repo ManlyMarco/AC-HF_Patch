@@ -3,7 +3,7 @@ Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CP
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v18.4.1 (Can change plugin settings. Press F1 to open)"         ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "KKManager";                             Description: "KKManager v1.7.0.0 (Manage plugins and browse character cards)"                       
+Name: "KKManager";                             Description: "KKManager v1.8.0.0 (Manage plugins and browse character cards)"                       
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.2.1 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
@@ -20,12 +20,13 @@ Name: "Content";                               Description: "Additional content 
 ; ame: "Content\Hardmods";                      Description: "Hardmod pack 2025/05/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"
 ; ame: "Content\Hardmods\HardmodCards";         Description: "Character and outfit cards (A lot of extra cards that came included with the hardmods. Will fill up your character list!)"
 ; endif
-Name: "Content\Fishbone";                      Description: "Fishbone+CoastalSmell v3.1.5 (API for character and coordinate extension data and syntax suggers)"; Types: extra extra_en
-Name: "Content\Fishbone\PelvicFin";            Description: "PelvicFin v1.1.5 (Modify misc character status in character creation and H scene)"    ; Types: extra extra_en
-Name: "Content\Fishbone\SardineHead";          Description: "SardineHead v2.1.1 (Runtime texture and material modifier tool)"                      ; Types: extra extra_en
-Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.1.12 (Adds support for soft mods)"                                     ; Types: extra extra_en
+Name: "Content\Fishbone";                      Description: "Fishbone+CoastalSmell v4.0.0 (API for character and coordinate extension data and syntax suggers)"; Types: extra extra_en
+Name: "Content\Fishbone\PelvicFin";            Description: "PelvicFin v1.2.0 (Modify misc character status in character creation and H scene)"    ; Types: extra extra_en
+Name: "Content\Fishbone\SardineHead";          Description: "SardineHead v2.2.0 (Runtime texture and material modifier tool)"                      ; Types: extra extra_en
+Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.2.0 (Adds support for soft mods)"                                      ; Types: extra extra_en
 Name: "Content\Fishbone\SardineTail\Sardines_modpack"; Description: "A pack of sardines (Modpack with various new items for use in maker)"                 ; Types: extra extra_en
 Name: "Content\Hardmods";                      Description: "Hardmod pack 2025/10/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"; Types: extra extra_en
+Name: "Content\SliderUnlock";                  Description: "AC_SliderUnlock v1.0.1 (Unlocks ranges of most character maker sliders)"              ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: full_en full extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.1 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en
@@ -38,17 +39,23 @@ Name: "Feature\MuteInBackground";              Description: "Mute In Background 
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Press Alt+Enter to toggle full screen mode)"          ; Types: full_en full extra extra_en
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.8 (Can override game resolution, vsync and frame limit)"         ; Types: full_en full extra extra_en
 Name: "Feature\JumpLister";                    Description: "JumpLister v1.1 (Adds useful options to the game's Jump List in taskbar right-click menu)"; Types: full_en full extra extra_en
-Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2.0.2 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
+Name: "Feature\HSceneBreastJiggle";            Description: "HSceneBreastJiggle v1.0.1 (Allows setting custom values for breast softness and weight during H)"; Types: full_en full extra extra_en
+Name: "Feature\HSceneAnimationSpeed";          Description: "HSceneAnimationSpeed v1.0.0 (Allows setting a custom animation speed during H)"       ; Types: full_en full extra extra_en
+Name: "Feature\DorsalFin";                     Description: "DorsalFin v1.1.0 (Additional color modifier UI for chara maker (default CTRL+D))"     ; Types: full_en full extra extra_en
+Name: "Feature\Ahegao";                        Description: "Ahegao v1.0.0 (Allows setting different faces for different states)"                  ; Types: full_en full extra extra_en
+Name: "Feature\HGaugeCtrl";                    Description: "AC_HGaugeCtrl v1.0.0 (Changes how the HGauge works)"                                  ; Types: full_en full extra extra_en
 Name: "Feature\CharaFilter";                   Description: "AC_CharaFilter v0.0.6 (Additional filtering options for character/coordinate cards)"  ; Types: extra extra_en
-Name: "Feature\CCPoseLoader";                  Description: "CCPoseLoader v2.1.1 (Additional pose loader for maker, adds more poses)"              ; Types: extra extra_en
+Name: "Feature\CCPoseLoader";                  Description: "CCPoseLoader v2.2.0 (Additional pose loader for maker, adds more poses)"              ; Types: extra extra_en
+Name: "Feature\BeautifySettings";              Description: "BeautifySettings v1.1.0 (Allows changing different Beautify post-processing settings)"; Types: extra extra_en
+Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2.0.2 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  
-Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.0.101 (Adds support for some computer-controlled sex toys)"            
+Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.3.0 (Adds support for some computer-controlled sex toys)"              
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\FPS";                              Description: "FPS Counter v3.3.1 (Useful for performance testing)"                                  ; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor";               Description: "Runtime Unity Editor v6.3 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
-Name: "MISC\RuntimeUnityEditor\CheatTools";    Description: "Cheat Tools v3.6 (In-game trainer/debugging plugin)"                                  ; Types: full_en full extra extra_en
-Name: "MISC\Memes";                            Description: "Custom intro voices v33.0 (Being a gooner is my job)"                                 ; Types: extra extra_en
+Name: "MISC\RuntimeUnityEditor\CheatTools";    Description: "Cheat Tools v3.6.1 (In-game trainer/debugging plugin)"                                ; Types: full_en full extra extra_en
+Name: "MISC\Memes";                            Description: "Custom intro voices v34.0 (Gitgoon)"                                                  ; Types: extra extra_en
 Name: "MISC\FullSave";                         Description: "Unlock FreeH (Save file with FreeH fully unlocked. Overwrites your global unlock progress, but not game saves)"
 
 [Files]
@@ -66,6 +73,7 @@ Source: "Input\_Plugins\_out\AC_SardineTail\*";             DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\AC_PelvicFin\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\PelvicFin; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Hardmod_modpack\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Sardines_modpack\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineTail\Sardines_modpack; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_SliderUnlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SliderUnlock; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_PovX\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\PovX; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\EnableFullScreenToggleIL2CPP\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\EnableFullScreenToggle; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\EnableResizeIL2CPP\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\EnableResize; Excludes: "manifest.xml"
@@ -77,6 +85,12 @@ Source: "Input\_Plugins\_out\AC_CCPoseLoader\*";            DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\AC_CharaFilter\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\CharaFilter; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_ClothingStateMenu\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\ClothingStateMenu; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_Hair\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\Hair; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_Ahegao\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\Ahegao; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_BeautifySettings\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\BeautifySettings; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_DorsalFin\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\DorsalFin; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_HSceneAnimationSpeed\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HSceneAnimationSpeed; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_HSceneBreastJiggle\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HSceneBreastJiggle; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_HGaugeCtrl\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HGaugeCtrl; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\FPSCounter_Bep6\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\FPS; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\FullSave\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\FullSave; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Memes\*";                      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\Memes; Excludes: "manifest.xml"
