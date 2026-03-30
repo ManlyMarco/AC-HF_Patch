@@ -52,6 +52,7 @@ Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 
 Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.3.0 (Adds support for some computer-controlled sex toys)"              
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
+Name: "MISC\FIX";                              Description: "Fix game registry (fixes DigitalCraft not detecting AC)"                              ; Types: full_en full extra extra_en
 Name: "MISC\FPS";                              Description: "FPS Counter v3.3.1 (Useful for performance testing)"                                  ; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor";               Description: "Runtime Unity Editor v6.3 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor\CheatTools";    Description: "Cheat Tools v3.6.1 (In-game trainer/debugging plugin)"                                ; Types: full_en full extra extra_en
@@ -59,11 +60,8 @@ Name: "MISC\Memes";                            Description: "Custom intro voices
 Name: "MISC\FullSave";                         Description: "Unlock FreeH (Save file with FreeH fully unlocked. Overwrites your global unlock progress, but not game saves)"
 
 [Files]
+#ifndef DEBUG
 Source: "Input\_Plugins\_out\BepInEx-Unity.IL2CPP-win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx; Excludes: "manifest.xml"
-#ifndef LITE
-; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
-; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
-#endif 
 Source: "Input\_Plugins\_out\BepInEx.ConfigurationManager\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\ConfigurationManager_Il2Cpp; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\MessageCenterIL2CPP\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\MessageCenter; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_BepisPlugins\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\BepisPlugins; Excludes: "manifest.xml"
@@ -102,3 +100,7 @@ Source: "Input\_Plugins\_out\ACUncensorHardmod_V3\*";       DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\ACUncensorHardmod-NoFutaBalls_V3\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\NoBalls; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: KKManager; Excludes: "manifest.xml"
+
+[Code]
+// Need to put this behind an empty Code category so that the automatic tool doesn't add new file items below this #endif
+#endif
