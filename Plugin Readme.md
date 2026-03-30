@@ -8,7 +8,7 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
 
-# AC_CharaFilter v0.0.6
+# AC_CharaFilter v0.0.8
 - Short description: Additional filtering options for character/coordinate cards
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
@@ -23,12 +23,17 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/AC_HGaugeCtrl
 
+# AC_MakerAutoscroll v1.0.0
+- Short description: Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item
+- Author(s):         crmbz0r
+- More information:  https://github.com/crmbz0r/AC_MakerAutoscroll
+
 # AC_SliderUnlock v1.0.1
 - Short description: Unlocks ranges of most character maker sliders
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# ACUncensorHardmod_V3
+# ACUncensorHardmod_V4
 - Short description: Basic male and female uncensor
 - Author(s):         DilleDing
 - More information:  Koikatsu discord server
@@ -63,7 +68,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
 
-# Clothing State Menu v5.2.0.2
+# Clothing State Menu v5.2
 - Short description: Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere
 - Author(s):         IDontHaveIdea, ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
@@ -118,7 +123,7 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_HSceneAnimationSpeed
 
-# HSceneBreastJiggle v1.0.1
+# HSceneBreastJiggle v1.0.2
 - Short description: Allows setting custom values for breast softness and weight during H
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
@@ -134,11 +139,11 @@
 - More information:  https://github.com/ManlyMarco/JumpLister
 
 # KKManager v1.8.0.0
-- Short description: Manage plugins and browse character cards
+- Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
 
-# LoveMachine v4.3.0
+# LoveMachine v4.4.0
 - Short description: Adds support for some computer-controlled sex toys
 - Author(s):         Sauceke
 - More information:  https://github.com/Sauceke/LoveMachine
@@ -188,7 +193,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.5
+# XUnity Auto Translator v5.5.1
 - Short description: Translation loader and automatic translator
 - Author(s):         gravydevsupreme, Bepis, others at https://github.com/bbepis/XUnity.AutoTranslator
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator

@@ -3,17 +3,17 @@ Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CP
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v18.4.1 (Can change plugin settings. Press F1 to open)"         ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "KKManager";                             Description: "KKManager v1.8.0.0 (Manage plugins and browse character cards)"                       
+Name: "KKManager";                             Description: "KKManager v1.8.0.0 (Manage and update mods, browse cards)"                            
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.2.1 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "AT";                                    Description: "XUnity Auto Translator v5.5 (Translation loader and automatic translator)"            ; Types: full extra full_en extra_en custom
+Name: "AT";                                    Description: "XUnity Auto Translator v5.5.1 (Translation loader and automatic translator)"          ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
 Name: "UNC\NoBalls";                           Description: "ACUncensorHardmod-NoFutaBalls_V3 (Basic male and female uncensor (futanaris have no balls))"; Types: full_en full extra extra_en; Flags: exclusive
-Name: "UNC\YesBalls";                          Description: "ACUncensorHardmod_V3 (Basic male and female uncensor)"                                ; Flags: exclusive
+Name: "UNC\YesBalls";                          Description: "ACUncensorHardmod_V4 (Basic male and female uncensor)"                                ; Flags: exclusive
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly some downloaded cards)"                        ; Types: full_en full extra extra_en
 ; ifndef LITE
@@ -39,17 +39,18 @@ Name: "Feature\MuteInBackground";              Description: "Mute In Background 
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Press Alt+Enter to toggle full screen mode)"          ; Types: full_en full extra extra_en
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.8 (Can override game resolution, vsync and frame limit)"         ; Types: full_en full extra extra_en
 Name: "Feature\JumpLister";                    Description: "JumpLister v1.1 (Adds useful options to the game's Jump List in taskbar right-click menu)"; Types: full_en full extra extra_en
-Name: "Feature\HSceneBreastJiggle";            Description: "HSceneBreastJiggle v1.0.1 (Allows setting custom values for breast softness and weight during H)"; Types: full_en full extra extra_en
+Name: "Feature\HSceneBreastJiggle";            Description: "HSceneBreastJiggle v1.0.2 (Allows setting custom values for breast softness and weight during H)"; Types: full_en full extra extra_en
 Name: "Feature\HSceneAnimationSpeed";          Description: "HSceneAnimationSpeed v1.0.0 (Allows setting a custom animation speed during H)"       ; Types: full_en full extra extra_en
 Name: "Feature\DorsalFin";                     Description: "DorsalFin v1.1.0 (Additional color modifier UI for chara maker (default CTRL+D))"     ; Types: full_en full extra extra_en
 Name: "Feature\Ahegao";                        Description: "Ahegao v1.0.0 (Allows setting different faces for different states)"                  ; Types: full_en full extra extra_en
 Name: "Feature\HGaugeCtrl";                    Description: "AC_HGaugeCtrl v1.0.0 (Changes how the HGauge works)"                                  ; Types: full_en full extra extra_en
-Name: "Feature\CharaFilter";                   Description: "AC_CharaFilter v0.0.6 (Additional filtering options for character/coordinate cards)"  ; Types: extra extra_en
+Name: "Feature\MakerAutoscroll";               Description: "AC_MakerAutoscroll v1.0.0 (Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item)"; Types: full_en full extra extra_en
+Name: "Feature\CharaFilter";                   Description: "AC_CharaFilter v0.0.8 (Additional filtering options for character/coordinate cards)"  ; Types: extra extra_en
 Name: "Feature\CCPoseLoader";                  Description: "CCPoseLoader v2.2.0 (Additional pose loader for maker, adds more poses)"              ; Types: extra extra_en
 Name: "Feature\BeautifySettings";              Description: "BeautifySettings v1.1.0 (Allows changing different Beautify post-processing settings)"; Types: extra extra_en
-Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2.0.2 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
+Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  
-Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.3.0 (Adds support for some computer-controlled sex toys)"              
+Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.4.0 (Adds support for some computer-controlled sex toys)"              
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\FIX";                              Description: "Fix game registry (fixes DigitalCraft not detecting AC)"                              ; Types: full_en full extra extra_en
@@ -89,6 +90,7 @@ Source: "Input\_Plugins\_out\AC_DorsalFin\*";               DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\AC_HSceneAnimationSpeed\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HSceneAnimationSpeed; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_HSceneBreastJiggle\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HSceneBreastJiggle; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_HGaugeCtrl\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HGaugeCtrl; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_MakerAutoscroll\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\MakerAutoscroll; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\FPSCounter_Bep6\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\FPS; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\FullSave\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\FullSave; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Memes\*";                      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\Memes; Excludes: "manifest.xml"
@@ -96,7 +98,7 @@ Source: "Input\_Plugins\_out\RuntimeUnityEditor\*";         DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\AC_CheatTools\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\RuntimeUnityEditor\CheatTools; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\IllusionFixes\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\IllusionFixes; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\WebRequestBlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\WebRequestBlocker; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\ACUncensorHardmod_V3\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\YesBalls; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\ACUncensorHardmod_V4\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\YesBalls; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\ACUncensorHardmod-NoFutaBalls_V3\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\NoBalls; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: KKManager; Excludes: "manifest.xml"

@@ -7,11 +7,11 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Aicomi"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.5"
+#define VERSION "1.6"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
-#define DEBUG
+;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
@@ -48,8 +48,8 @@ LZMAUseSeparateProcess=yes
 ;Usual settings: 208576 273
 LZMADictionarySize=208576
 LZMANumFastBytes=273
-LZMANumBlockThreads=8
-DiskSpanning=no
+LZMANumBlockThreads=16
+DiskSpanning=yes
 DiskSliceSize=4294967295
 
 [Languages]
@@ -67,18 +67,20 @@ Name: "custom";   Description: "{cm:customInstall}"; Flags: iscustom
 
 [Components]
 Name: "Patch";      Description: "Repair common issues";     Types: full_en full extra_en extra custom bare none; Flags: fixed
-;Name: "Patch\VR";	Description: "Install/Update VR Module"; Types: extra_en extra
+Name: "Patch\VR";	Description: "Install/Update VR Module"; Types: extra_en extra
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Files]
 #ifndef DEBUG
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
-Source: "Input\_Patch\2_1219\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
-Source: "Input\_Patch\9_unhollowed-1219\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\2_0327\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
+Source: "Input\_Patch\4_vr\*";                     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
+Source: "Input\_Patch\9_unhollowed-0327\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
 Source: "Input\_Patch\ex_1_diff\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
-Source: "Input\_Patch\ex_2_0206\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
-Source: "Input\_Patch\ex_9_unhollowed-0206\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
+Source: "Input\_Patch\ex_2_0327\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
+Source: "Input\_Patch\ex_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
+Source: "Input\_Patch\9vr_unhollowed-0327\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -130,30 +132,8 @@ Type: files; Name: "{app}\lib\chara\list\characustom\097_00.unity3d"
 Type: files; Name: "{app}\lib\chara\list\characustom\1001_812_AC_S10MOD.unity3d"
 Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_body_tans.unity3d"
 Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_face_overlay.unity3d"
-// TODO stuff below is copied from SVS, does it apply to AC also?
-#ifndef LITE
-Type: filesandordirs; Name: "{app}\abdata\chara\TekitoMOD";               Components: Content\Hardmods
-#endif 
-Type: files; Name: "{app}\abdata\adv\list\lit\000_40.unity3d";            Components: Maps
-Type: files; Name: "{app}\abdata\map\list\040_00.unity3d";                Components: Maps
-Type: files; Name: "{app}\abdata\map\scene\000_40\40.unity3d";            Components: Maps
-Type: files; Name: "{app}\abdata\map\ui\040_00.unity3d";                  Components: Maps
-Type: files; Name: "{app}\abdata\map\list\200_56.unity3d";                Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\map\collison\svsce_mp";         Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\map\lightmapsettings\svsce_mp"; Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\map\scene\svsce_mp";            Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\map\ui\svsce_mp";               Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\map\CustomMap";                 Components: Maps
-Type: files; Name: "{app}\abdata\adv\list\lit\100_00.unity3d";            Components: Maps
-Type: files; Name: "{app}\abdata\map\list\100_00_AA1.unity3d";            Components: Maps
-Type: files; Name: "{app}\abdata\adv\list\lit\100_00_AA1.unity3d";        Components: Maps
-Type: files; Name: "{app}\abdata\adv\list\lit\200_56_CE.unity3d";         Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\mods\CustomMaps";               Components: Maps
-Type: filesandordirs; Name: "{app}\abdata\sound\data\bgm\custom";         Components: Maps
 
-// TODO AC version? or remove
 ; Problematic config files
-Type: files; Name: "{app}\BepInEx\config\SVS_HSceneAddOn.cfg";
 
 [Dirs]
 Name: {app}\sardines; Components: Content\Fishbone\SardineTail
@@ -175,6 +155,7 @@ Name: delete\Listfiles; Description: "{cm:TaskDeleteLst}"; Flags: unchecked
 
 [Icons]
 Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\Aicomi.exe"; IconFilename: "{app}\Aicomi.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
+Name: "{userdesktop}\{cm:IconGame} VR"; Filename: "{app}\AicomiVR\AicomiVR.exe"; IconFilename: "{app}\AicomiVR\AicomiVR.exe"; WorkingDir: "{app}\AicomiVR\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"; Components: Patch\VR
 
 [Run]
 Filename: "{app}\Aicomi.exe"; Description: "{cm:RunGame}"; Flags: postinstall runasoriginaluser nowait skipifsilent skipifdoesntexist
