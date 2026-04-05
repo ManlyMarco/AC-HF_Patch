@@ -5,7 +5,7 @@ An unofficial patch for [Aicomi](https://www.illgames.jp/product/aicomi/) (ã‚¢ã‚
 
 Read the [full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) to learn more about what it is, what it does, how to use it, and how to solve common issues.
 
-HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the Japanese version of the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ01004610.html) ([buy and download guide](https://youtu.be/gXhEcizjOLg)) or [on DMM](https://dlsoft.dmm.co.jp/detail/illgames_0007) ([buy and download guide](https://youtu.be/SJ9OXedO3qI)). Both DLsite and DMM versions are essentially identical, just differently compressed.
+HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the Japanese version of the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ01005659.html) ([buy and download guide](https://youtu.be/gXhEcizjOLg)) or [on DMM](https://dlsoft.dmm.co.jp/detail/illgames_pw8mxwci5ypack/) ([buy and download guide](https://youtu.be/SJ9OXedO3qI)). Both DLsite and DMM versions are essentially identical, just differently compressed.
 
 You can support development of HF Patch and many of the included plugins through my Patreon page: https://www.patreon.com/ManlyMarco
 
