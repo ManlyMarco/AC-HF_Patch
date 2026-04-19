@@ -199,7 +199,7 @@ begin
   if (not FileExists(ExpandConstant('{app}\Aicomi_Data\resources.assets')) 
    or not FileExists(ExpandConstant('{app}\lib\adv\o\000_00.unity3d')) 
    or not FileExists(ExpandConstant('{app}\lib\sound\setting\2d\000_00.unity3d')) 
-   or not FileExists(ExpandConstant('{app}\lib\touch\atari\000_01.unity3d'))) then
+   or not FileExists(ExpandConstant('{app}\lib\g\map\000_00.unity3d'))) then
   begin
     // Cancel, there's file corruptions that we can't fix
     MsgBox(ExpandConstant('{cm:MsgMissingGameFiles}'), mbCriticalError, MB_OK);
