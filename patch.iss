@@ -11,7 +11,7 @@
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
-;#define DEBUG
+#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
@@ -181,7 +181,7 @@ end;
 function IsSteam(): Boolean;
 begin
   // Check if the game folder is directly inside a 'steamapps' folder and assume it means it's a Steam version
-  //Result := CompareText(ExtractFileName(ExtractFileDir(ExpandConstant('{app}'))), 'steamapps') = 0;
+  //Result := CompareText(ExtractFileName(ExtractFileDir(ExtractFileDir(ExpandConstant('{app}')))), 'steamapps') = 0;
   //Result := FileExists(ExpandConstant('{app}\DefaultData\url\st_up_api_token.dat')); - do not use, may not detect a converted game in the future
   // Steam ver has bundles numbered 100_xx for a lot of things, nothing in jp ver uses this ID
   Result := FileExists(ExpandConstant('{app}\lib\adv\scene\g\100_00\0.unity3d'));
@@ -218,8 +218,8 @@ begin
   if not NightTourInstalled() then
     SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
   
-  //if IsSteam then
-  //  SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
+  if IsSteam then
+    SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
 
   Result := True;
 end;
