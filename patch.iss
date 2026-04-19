@@ -73,14 +73,18 @@ Name: "Patch\VR";	Description: "Install/Update VR Module"; Types: extra_en extra
 [Files]
 #ifndef DEBUG
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
-Source: "Input\_Patch\2_0327\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
-Source: "Input\_Patch\4_vr\*";                     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
-Source: "Input\_Patch\9_unhollowed-0327\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch
-Source: "Input\_Patch\ex_1_diff\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
-Source: "Input\_Patch\ex_2_0327\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
-Source: "Input\_Patch\ex_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: NightTourInstalled
-Source: "Input\_Patch\9vr_unhollowed-0327\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
+Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch;    Check: not IsSteam
+Source: "Input\_Patch\2_0327\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
+Source: "Input\_Patch\9_unhollowed-0327\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
+Source: "Input\_Patch\ex_1_diff\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
+Source: "Input\_Patch\ex_2_0327\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
+Source: "Input\_Patch\ex_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
+
+Source: "Input\_Patch\st_2_extra\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: IsSteam
+Source: "Input\_Patch\st_9_unhollowed-0000\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: IsSteam
+
+Source: "Input\_Patch\vr_1\*";                     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
+Source: "Input\_Patch\vr_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -177,9 +181,10 @@ end;
 function IsSteam(): Boolean;
 begin
   // Check if the game folder is directly inside a 'steamapps' folder and assume it means it's a Steam version
-  Result := CompareText(ExtractFileName(ExtractFileDir(ExpandConstant('{app}'))), 'steamapps') = 0;
-  // TODO a proper check?
-  //Result := FileExists(ExpandConstant('{app}\DefaultData\url\st_up_api_token.dat'));
+  //Result := CompareText(ExtractFileName(ExtractFileDir(ExpandConstant('{app}'))), 'steamapps') = 0;
+  //Result := FileExists(ExpandConstant('{app}\DefaultData\url\st_up_api_token.dat')); - do not use, may not detect a converted game in the future
+  // Steam ver has bundles numbered 100_xx for a lot of things, nothing in jp ver uses this ID
+  Result := FileExists(ExpandConstant('{app}\lib\adv\scene\g\100_00\0.unity3d'));
 end;
 
 function NightTourInstalled(): Boolean;
@@ -213,8 +218,8 @@ begin
   if not NightTourInstalled() then
     SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
   
-  if IsSteam then
-    SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
+  //if IsSteam then
+  //  SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
 
   Result := True;
 end;
