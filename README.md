@@ -7,6 +7,8 @@ Read the [full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e19
 
 HF Patch does not contain the full game, paid expansions or any other pirated content. You have to buy the game and expansions separately. You can buy the Japanese version of the game [on DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ01005659.html) ([buy and download guide](https://youtu.be/gXhEcizjOLg)) or [on DMM](https://dlsoft.dmm.co.jp/detail/illgames_pw8mxwci5ypack/) ([buy and download guide](https://youtu.be/SJ9OXedO3qI)). Both DLsite and DMM versions are essentially identical, just differently compressed.
 
+You can buy the English version [on Steam](https://store.steampowered.com/app/4416880/AICOMI/) but currently it is missing the NightTour expansion and while supported by HF Patch it currently has worse mod compatibility.
+
 You can support development of HF Patch and many of the included plugins through my Patreon page: https://www.patreon.com/ManlyMarco
 
 ## Download
@@ -44,15 +46,14 @@ Here are answers to some of the most commonly asked questions, please check them
 - Please leave the modders some positive feedback or help them in some other way!
 - There is no warranty on this patch or on any of the included mods. You are installing this patch at your own risk. The base game and by extension this patch are not suitable for minors. If you are under 18 years old you can not use this patch. The base game and this patch contain only characters of age 18 or higher. The creator of this patch is not responsible for creations of its users and prohibits any unlawful use of this software.
 
-<!--### Specific to the SVS patch
-- If you have a Ryzen 3xxx CPU you may want to make sure ProcessorAffinityOverride is checked when installing the patch.
-- If you can't see HC or SVS cards in studio (DigitalCraft) you may need to fix that particular game's registry keys. HC Patch v1.13+ and SVS Patch v1.2+ will fix the registry keys by default.
+### Specific to the AC patch
+- If you can't see AC cards in studio (DigitalCraft) you will need to update studio. Make sure to also turn on "Fix game registry" when installing this patch.
 - The mod updater doesn't work yet since very few mods were created so far (also there is no zipmod/sideloader support).
-- There is only one uncensor available so far. If you want to disable it you will have to install the patch again with the uncensor unchecked.
-
 
 ### Specific to the Steam version of the game
-- Before installing this patch it’s best to run “Verify local game files” in Steam (find HoneyCome in your library > Properties > Local files > Verify). This will avoid any potential issues with modified or broken game files, and will ensure the game is up to date.
+- Before installing this patch it’s best to run “Verify local game files” in Steam (find AICOMI in your library > Properties > Local files > Verify). This will avoid any potential issues with modified or broken game files, and will ensure the game is up to date.
+
+<!--
 - This patch will convert your game into the uncut version (DLsite/DMM). Essentially it will greatly mod compatibility and unlock everything, but if Steam ever updates the game it will most likely break it until you install HF Patch again.
 - If you don’t want your friends to see you play this game, after installing this patch you will be able to start it directly from the game directory and Steam won’t see it.
 -->
