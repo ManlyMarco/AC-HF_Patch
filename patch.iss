@@ -7,11 +7,11 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Aicomi"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.6"
+#define VERSION "1.7"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
-#define DEBUG
+;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
@@ -218,8 +218,8 @@ begin
   if not NightTourInstalled() then
     SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
   
-  if IsSteam then
-    SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
+  //if IsSteam then
+    //SuppressibleMsgBox('WARNING: This looks like a Steam version of the game. This patch was made before the Steam version was released so it will most likely not work correctly, and might even break your game install. Check for a new version of this patch on github, patreon or discord.', mbError, MB_OK, 0);
 
   Result := True;
 end;

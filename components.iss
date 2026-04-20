@@ -3,12 +3,13 @@ Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CP
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
 Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v18.4.1 (Can change plugin settings. Press F1 to open)"         ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "KKManager";                             Description: "KKManager v1.8.0.0 (Manage and update mods, browse cards)"                            
+Name: "KKManager";                             Description: "KKManager v1.10.0.0 (Manage and update mods, browse cards)"                           
+Name: "IllusionLaunchers";                     Description: "IllusionLaunchers v3.5.1.0 (Custom game launcher)"                                    ; Types: full_en full extra extra_en custom
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.2.1 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "AT";                                    Description: "XUnity Auto Translator v5.5.1 (Translation loader and automatic translator)"          ; Types: full extra full_en extra_en custom
+Name: "AT";                                    Description: "XUnity Auto Translator v5.6.1 (Translation loader and automatic translator)"          ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
@@ -26,7 +27,7 @@ Name: "Content\Fishbone\SardineHead";          Description: "SardineHead v2.2.0 
 Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.2.0 (Adds support for soft mods)"                                      ; Types: extra extra_en
 Name: "Content\Fishbone\SardineTail\Sardines_modpack"; Description: "A pack of sardines (Modpack with various new items for use in maker)"                 ; Types: extra extra_en
 Name: "Content\Hardmods";                      Description: "Hardmod pack 2025/10/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"; Types: extra extra_en
-Name: "Content\SliderUnlock";                  Description: "AC_SliderUnlock v1.0.1 (Unlocks ranges of most character maker sliders)"              ; Types: full_en full extra extra_en
+Name: "Content\SliderUnlock";                  Description: "AC_SliderUnlock v1.1.0 (Unlocks ranges of most character maker sliders)"              ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: full_en full extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.1 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en
@@ -102,6 +103,7 @@ Source: "Input\_Plugins\_out\ACUncensorHardmod_V4\*";       DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\ACUncensorHardmod-NoFutaBalls_V3\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\NoBalls; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: KKManager; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\IllusionLaunchers_Aicomi\*";   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: IllusionLaunchers; Excludes: "manifest.xml"
 
 [Code]
 // Need to put this behind an empty Code category so that the automatic tool doesn't add new file items below this #endif
