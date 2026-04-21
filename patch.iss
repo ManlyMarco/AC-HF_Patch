@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Aicomi"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.7"
+#define VERSION "1.7.1"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
@@ -99,7 +99,9 @@ Source: "Input\Default_configs\*"; DestDir: "{app}\BepInEx\config"; Flags: ignor
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_TL\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Components: AT\TL
 Source: "Input\Config_eng\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Languages: en
+Source: "Input\Config_eng_st\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Languages: en; Check: IsSteam
 Source: "Input\Config_jap\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Languages: jp
+Source: "Input\Config_jap_st\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Languages: jp; Check: IsSteam
 #endif
 
 [InstallDelete]
@@ -138,6 +140,7 @@ Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_body_tans.uni
 Type: files; Name: "{app}\lib\list\characustom\200_00_unkown_gamer_face_overlay.unity3d"
 
 ; Problematic config files
+Type: files; Name: "{app}\UserData\setup.xml"; Check: not IsSteam 
 
 [Dirs]
 Name: {app}\sardines; Components: Content\Fishbone\SardineTail
