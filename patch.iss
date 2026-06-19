@@ -7,11 +7,11 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Aicomi"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.7.1"
+#define VERSION "2.0"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
-#define DEBUG
+;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
@@ -67,24 +67,24 @@ Name: "custom";   Description: "{cm:customInstall}"; Flags: iscustom
 
 [Components]
 Name: "Patch";      Description: "Repair common issues";     Types: full_en full extra_en extra custom bare none; Flags: fixed
-Name: "Patch\VR";	Description: "Install/Update VR Module"; Types: extra_en extra
+;Name: "Patch\VR";	Description: "Install/Update VR Module"; Types: extra_en extra
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Files]
 #ifndef DEBUG
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch;    Check: not IsSteam
-Source: "Input\_Patch\2_0327\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
-Source: "Input\_Patch\9_unhollowed-0327\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
+Source: "Input\_Patch\2_0501\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
+Source: "Input\_Patch\9_unhollowed-0501\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: not IsSteam
 Source: "Input\_Patch\ex_1_diff\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
-Source: "Input\_Patch\ex_2_0327\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
-Source: "Input\_Patch\ex_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
+Source: "Input\_Patch\ex_2_0529\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
+Source: "Input\_Patch\ex_9_unhollowed-0529\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: NightTourInstalled and not IsSteam
 
 Source: "Input\_Patch\st_2_extra\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: IsSteam
 Source: "Input\_Patch\st_9_unhollowed-0000\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch;    Check: IsSteam
 
-Source: "Input\_Patch\vr_1\*";                     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
-Source: "Input\_Patch\vr_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
+;Source: "Input\_Patch\vr_1\*";                     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
+;Source: "Input\_Patch\vr_9_unhollowed-0327\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch\VR;
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -161,11 +161,11 @@ Name: delete\scripts; Description: "Delete old scripts (ScriptLoader, frida)"
 Name: delete\Listfiles; Description: "{cm:TaskDeleteLst}"; Flags: unchecked
 
 [Icons]
-Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\Aicomi.exe"; IconFilename: "{app}\Aicomi.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
-Name: "{userdesktop}\{cm:IconGame} VR"; Filename: "{app}\AicomiVR\AicomiVR.exe"; IconFilename: "{app}\AicomiVR\AicomiVR.exe"; WorkingDir: "{app}\AicomiVR\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"; Components: Patch\VR
+Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\InitSetting.exe"; IconFilename: "{app}\InitSetting.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
+;Name: "{userdesktop}\{cm:IconGame} VR"; Filename: "{app}\AicomiVR\AicomiVR.exe"; IconFilename: "{app}\AicomiVR\AicomiVR.exe"; WorkingDir: "{app}\AicomiVR\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"; Components: Patch\VR
 
 [Run]
-Filename: "{app}\Aicomi.exe"; Description: "{cm:RunGame}"; Flags: postinstall runasoriginaluser nowait skipifsilent skipifdoesntexist
+Filename: "{app}\InitSetting.exe"; Description: "{cm:RunGame}"; Flags: postinstall runasoriginaluser nowait skipifsilent skipifdoesntexist
 ;Filename: "{app}\[UTILITY] KKManager\StandaloneUpdater.exe"; Parameters: """{app}"""; Description: "{cm:StartUpdate}"; Flags: postinstall runascurrentuser unchecked nowait skipifsilent skipifdoesntexist
 #include "HelperLib\CommonRun.iss"
 

@@ -3,7 +3,7 @@
 - Author(s):         Various, Tekito
 - More information:  Koikatsu Discord server
 
-# AC_BepisPlugins v21.1.2.1
+# AC_BepisPlugins v21.1.3
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -28,7 +28,7 @@
 - Author(s):         crmbz0r
 - More information:  https://github.com/crmbz0r/AC_MakerAutoscroll
 
-# AC_SliderUnlock v1.0.1
+# AC_SliderUnlock v1.1.0
 - Short description: Unlocks ranges of most character maker sliders
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
@@ -78,8 +78,8 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# Custom intro voices v34.0
-- Short description: Gitgoon
+# Custom intro voices v35.0
+- Short description: Satana perkele
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -98,7 +98,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Fishbone+CoastalSmell v4.0.0
+# Fishbone+CoastalSmell v4.1.0
 - Short description: API for character and coordinate extension data and syntax suggers
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -128,17 +128,22 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
 
-# IllusionFixes_IL2CPP v22.1
+# IllusionFixes_IL2CPP v22.2
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
+
+# IllusionLaunchers v3.5.1.0
+- Short description: Custom game launcher
+- Author(s):         https://github.com/IllusionMods
+- More information:  https://github.com/IllusionMods/IllusionLaunchers
 
 # JumpLister v1.1
 - Short description: Adds useful options to the game's Jump List in taskbar right-click menu
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.8.0.0
+# KKManager v1.11.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -173,12 +178,12 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineHead v2.2.0
+# SardineHead v2.3.0
 - Short description: Runtime texture and material modifier tool
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SardineTail v2.2.0
+# SardineTail v2.2.1
 - Short description: Adds support for soft mods
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
@@ -193,7 +198,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.5.1
+# XUnity Auto Translator v5.6.1
 - Short description: Translation loader and automatic translator
 - Author(s):         gravydevsupreme, Bepis, others at https://github.com/bbepis/XUnity.AutoTranslator
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
