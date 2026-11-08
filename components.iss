@@ -1,20 +1,21 @@
 [Components]
-Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752 (Plugin framework)"                        ; Types: full_en full extra_en extra custom bare; Flags: fixed
-Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
-Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v18.4.1 (Can change plugin settings. Press F1 to open)"         ; Types: full_en full extra extra_en
+Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.791 (Plugin framework)"                        ; Types: full_en full extra_en extra custom bare; Flags: fixed
+Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7.0.1 (Allows plugins to show messages in top left corner of the game)"; Types: full_en full extra extra_en
+Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "Configuration Manager v19.1 (Can change plugin settings. Press F1 to open)"           ; Types: full_en full extra extra_en
+Name: "BepInEx\BepInEx_SplashScreen_BepInEx6"; Description: "SplashScreen v3.0.0.0 (A loading screen on game startup with information about patchers and plugins being currently loaded)"; Types: extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "KKManager";                             Description: "KKManager v1.11.0.0 (Manage and update mods, browse cards)"                           
-Name: "IllusionLaunchers";                     Description: "IllusionLaunchers v3.5.1.0 (Custom game launcher)"                                    ; Types: full_en full extra extra_en custom
+Name: "KKManager";                             Description: "KKManager v1.12.0.0 (Manage and update mods, browse cards)"                           
+Name: "IllusionLaunchers";                     Description: "IllusionLaunchers v3.6.0.0 (Custom game launcher)"                                    ; Types: full_en full extra extra_en custom
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.3 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
+Name: "API\BepisPlugins";                      Description: "AC_BepisPlugins v21.1.4.1 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "AT";                                    Description: "XUnity Auto Translator v5.6.1 (Translation loader and automatic translator)"          ; Types: full extra full_en extra_en custom
+Name: "AT";                                    Description: "XUnity Auto Translator v5.6.3.1 (Translation loader and automatic translator)"        ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
-Name: "UNC\NoBalls";                           Description: "ACUncensorHardmod-NoFutaBalls_V3 (Basic male and female uncensor (futanaris have no balls))"; Types: full_en full extra extra_en; Flags: exclusive
-Name: "UNC\YesBalls";                          Description: "ACUncensorHardmod_V4 (Basic male and female uncensor)"                                ; Flags: exclusive
+Name: "UNC\NoBalls";                           Description: "ACUncensorHardmod-NoFutaBalls_V5 (Basic male and female uncensor (futanaris have no balls))"; Types: full_en full extra extra_en; Flags: exclusive
+Name: "UNC\YesBalls";                          Description: "ACUncensorHardmod_V5 (Basic male and female uncensor)"                                ; Flags: exclusive
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly some downloaded cards)"                        ; Types: full_en full extra extra_en
 ; ifndef LITE
@@ -28,6 +29,7 @@ Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v2.2.1 
 Name: "Content\Fishbone\SardineTail\Sardines_modpack"; Description: "A pack of sardines (Modpack with various new items for use in maker)"                 ; Types: extra extra_en
 Name: "Content\Hardmods";                      Description: "Hardmod pack 2025/10/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"; Types: extra extra_en
 Name: "Content\SliderUnlock";                  Description: "AC_SliderUnlock v1.1.0 (Unlocks ranges of most character maker sliders)"              ; Types: full_en full extra extra_en
+Name: "Content\MoreOutfits";                   Description: "AC_MoreOutfits v1.0.2 (Adds new outfits slots with custom conditions for NPCs)"       
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: full_en full extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.2 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en
@@ -35,9 +37,9 @@ Name: "FIX\WebRequestBlocker";                 Description: "Web Request Blocker
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Feature";                               Description: "Improvements and additional features"                                                 
 Name: "Feature\PovX";                          Description: "PovX v0.0.8 (First-person mode for H scenes. Press N to toggle POV, and M to switch character)"; Types: full_en full extra extra_en
-Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
-Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Press Alt+Enter to toggle full screen mode)"          ; Types: full_en full extra extra_en
-Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.8 (Can override game resolution, vsync and frame limit)"         ; Types: full_en full extra extra_en
+Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7.0.1 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
+Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7.1 (Press Alt+Enter to toggle full screen mode)"        ; Types: full_en full extra extra_en
+Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.8.0.1 (Can override game resolution, vsync and frame limit)"     ; Types: full_en full extra extra_en
 Name: "Feature\JumpLister";                    Description: "JumpLister v1.1 (Adds useful options to the game's Jump List in taskbar right-click menu)"; Types: full_en full extra extra_en
 Name: "Feature\HSceneBreastJiggle";            Description: "HSceneBreastJiggle v1.0.2 (Allows setting custom values for breast softness and weight during H)"; Types: full_en full extra extra_en
 Name: "Feature\HSceneAnimationSpeed";          Description: "HSceneAnimationSpeed v1.0.0 (Allows setting a custom animation speed during H)"       ; Types: full_en full extra extra_en
@@ -48,17 +50,17 @@ Name: "Feature\MakerAutoscroll";               Description: "AC_MakerAutoscroll 
 Name: "Feature\CharaFilter";                   Description: "AC_CharaFilter v0.0.8 (Additional filtering options for character/coordinate cards)"  ; Types: extra extra_en
 Name: "Feature\CCPoseLoader";                  Description: "CCPoseLoader v2.2.0 (Additional pose loader for maker, adds more poses)"              ; Types: extra extra_en
 Name: "Feature\BeautifySettings";              Description: "BeautifySettings v1.1.0 (Allows changing different Beautify post-processing settings)"; Types: extra extra_en
-Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
-Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  
+Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2.1 (Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere)"
+Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7.0.1 (Enable resizing of game window)"                              
 Name: "Feature\LoveMachine";                   Description: "LoveMachine v4.4.0 (Adds support for some computer-controlled sex toys)"              
-Name: "Feature\Hair";                          Description: "AC_Hair v0.0.1 (If 'eye over hair' is enabled, make hair transparent instead, can cause artifacts)"       
+Name: "Feature\Hair";                          Description: "AC_Hair v0.0.1 (If 'eye over hair' is enabled, make hair transparent instead)"        
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\FIX";                              Description: "Fix game registry (fixes DigitalCraft not detecting AC)"                              ; Types: full_en full extra extra_en
 Name: "MISC\FPS";                              Description: "FPS Counter v3.3.1 (Useful for performance testing)"                                  ; Types: full_en full extra extra_en
-Name: "MISC\RuntimeUnityEditor";               Description: "Runtime Unity Editor v6.3 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
+Name: "MISC\RuntimeUnityEditor";               Description: "Runtime Unity Editor v6.3.2.2 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor\CheatTools";    Description: "Cheat Tools v3.6.1 (In-game trainer/debugging plugin)"                                ; Types: full_en full extra extra_en
-Name: "MISC\Memes";                            Description: "Custom intro voices v35.0 (Satana perkele)"                                           ; Types: extra extra_en
+Name: "MISC\Memes";                            Description: "Custom intro voices v36.0 (Get sent to Poland)"                                       ; Types: extra extra_en
 Name: "MISC\FullSave";                         Description: "Unlock FreeH (Save file with FreeH fully unlocked. Overwrites your global unlock progress, but not game saves)"
 
 [Files]
@@ -66,6 +68,7 @@ Name: "MISC\FullSave";                         Description: "Unlock FreeH (Save 
 Source: "Input\_Plugins\_out\BepInEx-Unity.IL2CPP-win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\BepInEx.ConfigurationManager\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\ConfigurationManager_Il2Cpp; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\MessageCenterIL2CPP\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\MessageCenter; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\BepInEx.SplashScreen\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\BepInEx_SplashScreen_BepInEx6; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_BepisPlugins\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\BepisPlugins; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_Fishbone\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_SardineHead\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineHead; Excludes: "manifest.xml"
@@ -74,6 +77,7 @@ Source: "Input\_Plugins\_out\AC_PelvicFin\*";               DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\Hardmod_modpack\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Sardines_modpack\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineTail\Sardines_modpack; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_SliderUnlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SliderUnlock; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\AC_MoreOutfits\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\MoreOutfits; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\AC_PovX\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\PovX; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\EnableFullScreenToggleIL2CPP\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\EnableFullScreenToggle; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\EnableResizeIL2CPP\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\EnableResize; Excludes: "manifest.xml"
@@ -99,8 +103,8 @@ Source: "Input\_Plugins\_out\RuntimeUnityEditor\*";         DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\AC_CheatTools\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\RuntimeUnityEditor\CheatTools; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\IllusionFixes\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\IllusionFixes; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\WebRequestBlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\WebRequestBlocker; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\ACUncensorHardmod_V4\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\YesBalls; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\ACUncensorHardmod-NoFutaBalls_V3\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\NoBalls; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\ACUncensorHardmod\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\YesBalls; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\ACUncensorHardmod-NoFutaBalls\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\NoBalls; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: KKManager; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\IllusionLaunchers_Aicomi\*";   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: IllusionLaunchers; Excludes: "manifest.xml"

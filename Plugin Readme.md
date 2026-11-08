@@ -3,7 +3,7 @@
 - Author(s):         Various, Tekito
 - More information:  Koikatsu Discord server
 
-# AC_BepisPlugins v21.1.3
+# AC_BepisPlugins v21.1.4.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -28,17 +28,22 @@
 - Author(s):         crmbz0r
 - More information:  https://github.com/crmbz0r/AC_MakerAutoscroll
 
+# AC_MoreOutfits v1.0.2
+- Short description: Adds new outfits slots with custom conditions for NPCs
+- Author(s):         Ruby
+- More information:  https://github.com/Ruby-the-dev/AC_MoreOutfits
+
 # AC_SliderUnlock v1.1.0
 - Short description: Unlocks ranges of most character maker sliders
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# ACUncensorHardmod_V4
+# ACUncensorHardmod_V5
 - Short description: Basic male and female uncensor
 - Author(s):         DilleDing
 - More information:  Koikatsu discord server
 
-# ACUncensorHardmod-NoFutaBalls_V3
+# ACUncensorHardmod-NoFutaBalls_V5
 - Short description: Basic male and female uncensor (futanaris have no balls)
 - Author(s):         DilleDing
 - More information:  Koikatsu discord server
@@ -53,7 +58,7 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_BeautifySettings
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.791
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -68,18 +73,18 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
 
-# Clothing State Menu v5.2
+# Clothing State Menu v5.2.1
 - Short description: Allow hiding of clothing pieces and chara body, press Tab+LeftShift anywhere
 - Author(s):         IDontHaveIdea, ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Configuration Manager v18.4.1
+# Configuration Manager v19.1
 - Short description: Can change plugin settings. Press F1 to open
-- Author(s):         BepInEx
+- Author(s):         BepInEx (anonymous IL2CPP port)
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# Custom intro voices v35.0
-- Short description: Satana perkele
+# Custom intro voices v36.0
+- Short description: Get sent to Poland
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -88,12 +93,12 @@
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-DorsalFin
 
-# Enable Full Screen Toggle v0.7
+# Enable Full Screen Toggle v0.7.1
 - Short description: Press Alt+Enter to toggle full screen mode
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Enable Resize v0.7
+# Enable Resize v0.7.0.1
 - Short description: Enable resizing of game window
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
@@ -108,7 +113,7 @@
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/FPSCounter
 
-# Graphics Settings v0.8
+# Graphics Settings v0.8.0.1
 - Short description: Can override game resolution, vsync and frame limit
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
@@ -133,7 +138,7 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
 
-# IllusionLaunchers v3.5.1.0
+# IllusionLaunchers v3.6.0.0
 - Short description: Custom game launcher
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionLaunchers
@@ -143,7 +148,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.11.0.0
+# KKManager v1.12.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -153,12 +158,12 @@
 - Author(s):         Sauceke
 - More information:  https://github.com/Sauceke/LoveMachine
 
-# Message Center v0.7
+# Message Center v0.7.0.1
 - Short description: Allows plugins to show messages in top left corner of the game
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Mute In Background v0.7
+# Mute In Background v0.7.0.1
 - Short description: Mute the game when it's not in focus, configure in plugin settings
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
@@ -173,7 +178,7 @@
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# Runtime Unity Editor v6.3
+# Runtime Unity Editor v6.3.2.2
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
@@ -188,6 +193,11 @@
 - Author(s):         https://github.com/MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
 
+# SplashScreen v3.0.0.0
+- Short description: A loading screen on game startup with information about patchers and plugins being currently loaded
+- Author(s):         https://github.com/BepInEx
+- More information:  https://github.com/BepInEx/BepInEx.SplashScreen
+
 # Unlock FreeH
 - Short description: Save file with FreeH fully unlocked. Overwrites your global unlock progress, but not game saves
 - Author(s):         ???
@@ -198,7 +208,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.6.1
+# XUnity Auto Translator v5.6.3.1
 - Short description: Translation loader and automatic translator
 - Author(s):         gravydevsupreme, Bepis, others at https://github.com/bbepis/XUnity.AutoTranslator
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
